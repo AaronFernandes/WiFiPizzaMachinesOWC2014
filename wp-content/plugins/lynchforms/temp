@@ -1,0 +1,280 @@
+<pre><pre class='xdebug-var-dump' dir='ltr'>
+<b>array</b> <i>(size=22)</i>
+  'id' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'3'</font> <i>(length=1)</i>
+  'form_id' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1'</font> <i>(length=1)</i>
+  'date_created' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'2014-04-12 18:50:46'</font> <i>(length=19)</i>
+  'is_starred' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>0</font>
+  'is_read' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>0</font>
+  'ip' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+  'source_url' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'http://dev2.fightlynch.org/gravity-forms-test/'</font> <i>(length=46)</i>
+  'post_id' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  'currency' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'USD'</font> <i>(length=3)</i>
+  'payment_status' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  'payment_date' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  'transaction_id' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  'payment_amount' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  'payment_method' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  'is_fulfilled' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  'created_by' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1'</font> <i>(length=1)</i>
+  'transaction_type' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  'user_agent' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36'</font> <i>(length=120)</i>
+  'status' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'active'</font> <i>(length=6)</i>
+  '1.1' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'First Choice'</font> <i>(length=12)</i>
+  2 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'One relative'</font> <i>(length=12)</i>
+  3 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Yes'</font> <i>(length=3)</i>
+</pre><pre class='xdebug-var-dump' dir='ltr'>
+<b>array</b> <i>(size=18)</i>
+  'title' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Lynch Syndrome Screening'</font> <i>(length=24)</i>
+  'description' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  'labelPlacement' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'top_label'</font> <i>(length=9)</i>
+  'descriptionPlacement' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'below'</font> <i>(length=5)</i>
+  'button' <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=3)</i>
+      'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'text'</font> <i>(length=4)</i>
+      'text' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Submit'</font> <i>(length=6)</i>
+      'imageUrl' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  'fields' <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=3)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=62)</i>
+          'adminLabel' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'adminOnly' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'allowsPrepopulate' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'defaultValue' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'description' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'content' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'cssClass' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'errorMessage' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'id' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1</font>
+          'inputName' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'isRequired' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'label' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Have any of your relatives been diagnosed with colorectal cancer before they were 50?'</font> <i>(length=85)</i>
+          'noDuplicates' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'size' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'medium'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'checkbox'</font> <i>(length=8)</i>
+          'postCustomFieldName' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'displayAllCategories' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'displayCaption' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'displayDescription' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'displayTitle' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'inputType' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'rangeMin' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'rangeMax' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'calendarIconType' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'calendarIconUrl' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'dateType' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'dateFormat' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'phoneFormat' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'addressType' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'defaultCountry' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'defaultProvince' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'defaultState' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'hideAddress2' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'hideCountry' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'hideState' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'inputs' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+          'nameFormat' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'allowedExtensions' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'captchaType' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'pageNumber' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1</font>
+          'captchaTheme' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'simpleCaptchaSize' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'simpleCaptchaFontColor' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'simpleCaptchaBackgroundColor' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'failed_validation' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'productField' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'enablePasswordInput' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'maxLength' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'enablePrice' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'basePrice' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'choices' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=1)</i>
+              ...
+          'multipleFiles' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'maxFiles' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'calculationFormula' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'calculationRounding' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'enableCalculation' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'disableQuantity' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'inputMask' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'inputMaskValue' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'formId' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1</font>
+          'descriptionPlacement' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'below'</font> <i>(length=5)</i>
+          'validation_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=62)</i>
+          'adminLabel' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'adminOnly' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'allowsPrepopulate' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'defaultValue' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'description' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'content' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'cssClass' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'errorMessage' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'id' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>2</font>
+          'inputName' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'isRequired' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'label' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'How many relatives have been diagnosed with colorectal cancer?'</font> <i>(length=62)</i>
+          'noDuplicates' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'size' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'medium'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'radio'</font> <i>(length=5)</i>
+          'postCustomFieldName' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'displayAllCategories' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'displayCaption' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'displayDescription' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'displayTitle' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'inputType' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'rangeMin' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'rangeMax' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'calendarIconType' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'calendarIconUrl' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'dateType' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'dateFormat' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'phoneFormat' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'addressType' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'defaultCountry' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'defaultProvince' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'defaultState' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'hideAddress2' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'hideCountry' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'hideState' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'inputs' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+          'nameFormat' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'allowedExtensions' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'captchaType' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'pageNumber' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1</font>
+          'captchaTheme' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'simpleCaptchaSize' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'simpleCaptchaFontColor' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'simpleCaptchaBackgroundColor' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'failed_validation' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'productField' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'enablePasswordInput' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'maxLength' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'enablePrice' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'basePrice' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'choices' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=3)</i>
+              ...
+          'multipleFiles' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'maxFiles' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'calculationFormula' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'calculationRounding' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'enableCalculation' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'disableQuantity' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'inputMask' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'inputMaskValue' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'formId' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1</font>
+          'descriptionPlacement' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'below'</font> <i>(length=5)</i>
+          'validation_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=62)</i>
+          'adminLabel' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'adminOnly' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'allowsPrepopulate' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'defaultValue' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'description' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'content' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'cssClass' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'errorMessage' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'id' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>3</font>
+          'inputName' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'isRequired' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'label' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Have at least 2 generations of relatives had colorectal cancer? (e.g. parents and grandparents)'</font> <i>(length=95)</i>
+          'noDuplicates' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'size' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'medium'</font> <i>(length=6)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'radio'</font> <i>(length=5)</i>
+          'postCustomFieldName' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'displayAllCategories' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'displayCaption' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'displayDescription' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'displayTitle' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'inputType' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'rangeMin' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'rangeMax' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'calendarIconType' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'calendarIconUrl' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'dateType' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'dateFormat' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'phoneFormat' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'addressType' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'defaultCountry' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'defaultProvince' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'defaultState' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'hideAddress2' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'hideCountry' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'hideState' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'inputs' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+          'nameFormat' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'allowedExtensions' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'captchaType' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'pageNumber' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1</font>
+          'captchaTheme' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'simpleCaptchaSize' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'simpleCaptchaFontColor' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'simpleCaptchaBackgroundColor' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'failed_validation' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'productField' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'enablePasswordInput' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'maxLength' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'enablePrice' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'basePrice' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'choices' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=2)</i>
+              ...
+          'multipleFiles' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'maxFiles' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'calculationFormula' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'calculationRounding' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'enableCalculation' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'disableQuantity' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'inputMask' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+          'inputMaskValue' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'formId' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1</font>
+          'descriptionPlacement' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'below'</font> <i>(length=5)</i>
+          'validation_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  'id' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>1</font>
+  'useCurrentUserAsAuthor' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>true</font>
+  'postContentTemplateEnabled' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  'postTitleTemplateEnabled' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  'postTitleTemplate' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  'postContentTemplate' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  'lastPageButton' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  'pagination' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  'firstPageCssClass' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  'notifications' <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=1)</i>
+      '53497deab28e8' <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=7)</i>
+          'id' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'53497deab28e8'</font> <i>(length=13)</i>
+          'to' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'{admin_email}'</font> <i>(length=13)</i>
+          'name' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Admin Notification'</font> <i>(length=18)</i>
+          'event' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'form_submission'</font> <i>(length=15)</i>
+          'toType' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'email'</font> <i>(length=5)</i>
+          'subject' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'New submission from {form_title}'</font> <i>(length=32)</i>
+          'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'{all_fields}'</font> <i>(length=12)</i>
+  'confirmations' <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=1)</i>
+      '53497deab2e42' <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=8)</i>
+          'id' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'53497deab2e42'</font> <i>(length=13)</i>
+          'name' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Default Confirmation'</font> <i>(length=20)</i>
+          'isDefault' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>true</font>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'message'</font> <i>(length=7)</i>
+          'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Thanks for contacting us! We will get in touch with you shortly.'</font> <i>(length=64)</i>
+          'url' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'pageId' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+          'queryString' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  'confirmation' <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=8)</i>
+      'id' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'53497deab2e42'</font> <i>(length=13)</i>
+      'name' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Default Confirmation'</font> <i>(length=20)</i>
+      'isDefault' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>true</font>
+      'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'message'</font> <i>(length=7)</i>
+      'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Thanks for contacting us! We will get in touch with you shortly.'</font> <i>(length=64)</i>
+      'url' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+      'pageId' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+      'queryString' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+</pre>
