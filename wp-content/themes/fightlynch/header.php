@@ -35,6 +35,16 @@
 		<?php // end of wordpress head ?>
 
 		<?php // drop Google Analytics Here ?>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-31199663-2', 'fightlynch.org');
+		  ga('send', 'pageview');
+
+		</script>
 		<?php // end analytics ?>
 
 	</head>
@@ -46,14 +56,9 @@
 			<header class="header" role="banner">
 
 				<div id="inner-header" class="wrap cf">
-
-					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
-
-					<?php // if you'd like to use the site description you can un-comment it below ?>
-					<?php // bloginfo('description'); ?>
-
-
+				
+					<img src="images/ccare-header-logo.png" />
+				
 					<nav role="navigation">
 						<?php wp_nav_menu(array(
     					'container' => false,                           // remove nav container
@@ -70,6 +75,13 @@
 						)); ?>
 
 					</nav>
+
+					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
+					<!-- <p id="logo" class="h1"><a href="<?php //echo home_url(); ?>" rel="nofollow"><?php //bloginfo('name'); ?></a></p> -->
+					
+
+					<?php // if you'd like to use the site description you can un-comment it below ?>
+					<?php // bloginfo('description'); ?>
 
 				</div>
 

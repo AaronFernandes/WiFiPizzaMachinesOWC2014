@@ -1285,8 +1285,8 @@ body {
   font-family: sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #5c6b80;
-  background-color: #eaedf2;
+  color: #333333;
+  background-color: #ffffff;
   -webkit-font-smoothing: antialiased; }
 
 /********************
@@ -1338,13 +1338,18 @@ LAYOUT & GRID STYLES
 /*********************
 LINK STYLES
 *********************/
-a, a:visited {
-  color: #f01d4f;
+a {
+  color: #00aeef;
+  /* on hover */
+  /* on click */
+  /* mobile tap color */ }
+a:visited {
+  color: #2e3192;
   /* on hover */
   /* on click */
   /* mobile tap color */ }
   a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #d10e3c; }
+    color: #333333; }
   a:link, a:visited:link {
     /*
     this highlights links on iPhones/iPads.
@@ -1368,11 +1373,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
     text-decoration: none; }
 
 h1, .h1 {
-  font-size: 2.5em;
-  line-height: 1.333em; }
+  font-family: 'latolight';
+  font-size: 46pt;
+  line-height: 1.333em;
+  color: #333333;
+}
 
 h2, .h2 {
-  font-size: 1.75em;
+  font-family:	'latobold';
+  color: #4d4d4d;
+  font-size: 24pt;
   line-height: 1.4em;
   margin-bottom: 0.375em; }
 
@@ -1393,7 +1403,7 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  background-color: #323944; }
+  background-color: #fffff; }
 
 #logo {
   margin: 0.75em 0; }
@@ -1426,7 +1436,7 @@ and more scalable.
     */ }
     .nav li a {
       display: block;
-      color: white;
+      color: #333333;
       text-decoration: none;
       padding: 0.75em;
       /*
@@ -1440,6 +1450,18 @@ and more scalable.
       padding-left: 30px; }
 
 /* end .nav */
+
+/*********************
+SLIDER STYLES
+**********************/
+#slidy-container {
+   width: 68%;
+   margin-top: -60px;
+}
+
+#slidy {
+   z-index: -99;
+}
 /*********************
 POSTS & CONTENT STYLES
 *********************/
@@ -1447,23 +1469,19 @@ POSTS & CONTENT STYLES
   margin-top: 1.5em; }
 
 .hentry {
-  background-color: white;
-  border-radius: 3px;
-  margin-bottom: 1.5em;
-  border: 1px solid #cccccc; }
+  background-color: white; }
   .hentry header {
-    border-bottom: 1px solid #f8f9fa;
     padding: 1.5em; }
   .hentry footer {
-    padding: 1.5em;
-    border-top: 1px solid #f8f9fa; }
+    padding: 1.5em; }
     .hentry footer p {
       margin: 0; }
 
 /* end .hentry */
 .single-title,
 .page-title,
-.entry-title {
+.entry-title{
+  color: blue;
   margin: 0; }
 
 /* want to style individual post classes? Booya! */
@@ -1477,7 +1495,7 @@ POSTS & CONTENT STYLES
 /* style by tag (i.e. tag-news) */
 /* post meta */
 .byline {
-  color: #9fa6b4;
+  color: #333333;
   font-style: italic;
   margin: 0; }
 
@@ -1494,12 +1512,12 @@ POSTS & CONTENT STYLES
     margin: 0 0 1.5em; }
   .entry-content table {
     width: 100%;
-    border: 1px solid #eaedf2;
+    border: 0px;
     margin-bottom: 1.5em; }
     .entry-content table caption {
       margin: 0 0 7px;
       font-size: 0.75em;
-      color: #9fa6b4;
+      color: #333333;
       text-transform: uppercase;
       letter-spacing: 1px; }
   .entry-content tr {
@@ -1770,8 +1788,8 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  background-color: #323944;
-  color: #f8f9fa; }
+  background-color: #ffffff;
+  color: #333333; }
 
 /*
 if you checked out the link above:
