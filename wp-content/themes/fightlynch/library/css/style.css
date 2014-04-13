@@ -1586,7 +1586,13 @@ HEADER CONTENT STYLES
 	text-decoration:none;
 	text-align:center;
 }
-.button :hover {
+
+#navigation .current-menu-item a,
+#navigation .current-menu-item a:hover {
+	color: #0f85d0;
+}
+
+#donate a:hover, #donate a:visited {
 	color: #ffffff;
 }
 
