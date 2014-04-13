@@ -150,7 +150,11 @@ em,
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  height: 0; }
+  background-color: #f2f2f2;
+  border: 0;
+  width: 861px;
+  height: 2px;
+}
 
 /*
  * proper formatting (http://blog.fontdeck.com/post/9037028497/hyphens)
@@ -1473,7 +1477,10 @@ HEADER CONTENT STYLES
 #slidy {
    z-index: -99;
 }
-
+.article_header {
+	position: relative;
+	top: -50px;
+}
 
 /* column container */
 .colmask {

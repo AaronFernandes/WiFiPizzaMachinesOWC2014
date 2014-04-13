@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: Home Page Template
+ Template Name: Families Page
  *
  * This is your custom page template. You can create as many of these as you need.
  * Simply name is "page-whatever.php" and in add the "Template Name" title at the
@@ -12,20 +12,20 @@
  * For more info: http://codex.wordpress.org/Page_Templates
 */
 ?>
+
 <?php get_header(); ?>
 
 	<center><div id="slidy-container" class="wrap">
 	  <figure id="slidy">
-		<img src="images/dreamstime_5782247_DNA_cropped.jpg" />
-		<img src="images/dreamstime_7457010_scientist_cropped.jpg" />
-		<img src="images/dreamstime_8781320_group_cropped.jpg" />
-		<img src="images/dreamstime_13077435_doctors_cropped.jpg" />
+		<img src="../images/ccare-fam-main-image.png" />
 	  </figure>
-	</div></center>
-	<script type="text/javascript" src="js/cssslidy.js"></script>
-	<script type="text/javascript">
-	  cssSlidy();
-	</script>
+	</div>
+	<div style="position: relative; top: -15px;">
+	<a title="Cancer Screening" href="../families-info/cancer-screening/">Cancer Screening</a> &bull; 
+	<a title="Women &amp; Lynch Syndrome" href="../families-info/women-lynch-syndrome/">Women With Lynch</a> &bull; 
+	<a title="Insurance Issues" href="../families-info/insurance-issues/">Insurance Issues</a></div>
+	<hr noshade />
+	</center>
 
 			<div id="content">
 
@@ -37,8 +37,9 @@
 
 							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-								<header class="article-header">
-							
+								<header>
+
+									
 
 								</header>
 
@@ -75,7 +76,6 @@
 
 								</footer>
 
-								<?php comments_template(); ?>
 
 							</article>
 
