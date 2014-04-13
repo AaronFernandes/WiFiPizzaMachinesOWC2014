@@ -40,7 +40,7 @@ nav,
 section,
 summary {
   display: block; 
-  font-family: 'latoreg';
+  font-family: 'latobold';
   }
 
 /**
@@ -307,7 +307,7 @@ textarea {
   /* 1 */
   font-size: 100%;
   /* 2 */
-  margin: 0;
+  margin: 1px;
   /* 3 */ }
 
 /**
@@ -404,6 +404,34 @@ textarea {
 /* ==========================================================================
    Tables
    ========================================================================== */
+/**
+ * DIV TABLE THINGIES
+ */
+
+.divTable
+{
+	display:  table;
+	width:auto;
+}
+
+.divRow
+{
+   display:table-row;
+   width:auto;
+   clear:both;
+
+}
+
+.divCell
+{
+    text-align:vertical;
+	float:left;/*fix for  buggy browsers*/
+	display:table-column;
+	width:25%;
+	padding: 10px;
+}
+    
+   
 /**
  * Remove most spacing between table cells.
  */
@@ -980,7 +1008,7 @@ You can use this example if you want. Just replace all the variables
 and it will create a button dependant on those variables.
 */
 .blue-btn, .comment-reply-link, #submit {
-  background-color: #2980b9; }
+  background-color: #2980b9; border:none; }
   .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
     background-color: #2574a8; }
   .blue-btn:active, .comment-reply-link:active, #submit:active {
@@ -1573,7 +1601,7 @@ POSTS & CONTENT STYLES
 .single-title,
 .page-title,
 .entry-title{
-  color: blue;
+  color: #333;
   margin: 0; }
 
 /* want to style individual post classes? Booya! */
