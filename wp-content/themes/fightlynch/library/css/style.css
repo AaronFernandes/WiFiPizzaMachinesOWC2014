@@ -404,6 +404,34 @@ textarea {
    Tables
    ========================================================================== */
 /**
+ * DIV TABLE THINGIES
+ */
+
+.divTable
+{
+	display:  table;
+	width:auto;
+}
+
+.divRow
+{
+   display:table-row;
+   width:auto;
+   clear:both;
+
+}
+
+.divCell
+{
+    text-align:vertical;
+	float:left;/*fix for  buggy browsers*/
+	display:table-column;
+	width:25%;
+	padding: 10px;
+}
+    
+   
+/**
  * Remove most spacing between table cells.
  */
 table {
