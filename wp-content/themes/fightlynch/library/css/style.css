@@ -40,7 +40,7 @@ nav,
 section,
 summary {
   display: block; 
-  font-family: 'latolight';
+  font-family: 'latoreg';
   }
 
 /**
@@ -237,10 +237,6 @@ dd {
 menu {
   padding: 0 0 0 40px; }
 
-ul {
-	padding: 0; }
-}
-
 ol {
   padding: 0;
   list-style-type: none; }
@@ -284,7 +280,7 @@ figure {
  * Define consistent border, margin, and padding.
  */
 fieldset {
-  border: 0;
+  border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
@@ -491,6 +487,16 @@ FONT FACE (IN YOUR FACE)
   Be sure to remove the comment brackets.
 */
 
+@font-face {
+	font-family: 'latoreg';
+	src: url('../fonts/lato-reg-webfont.eot');
+    src: url('../fonts/lato-reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-reg-webfont.woff') format('woff'),
+         url('../fonts/lato-reg-webfont.ttf') format('truetype'),
+         url('../fonts/lato-reg-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'latobold';
@@ -949,7 +955,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
 .blue-btn, .comment-reply-link, #submit {
   display: inline-block;
   position: relative;
-  font-family: "latolight", sans-serif;
+  font-family: "latoreg", sans-serif;
   text-decoration: none;
   color: white;
   font-size: 0.9em;
@@ -1030,7 +1036,7 @@ textarea,
   border: 0;
   width: 100%;
   max-width: 400px;
-  font-family: "latolight", sans-serif;
+  font-family: "latoreg", sans-serif;
   background-color: #eaedf2;
   -webkit-transition: background-color 0.24s ease-in-out;
   transition: background-color 0.24s ease-in-out; }
@@ -1466,9 +1472,6 @@ HEADER CONTENT STYLES
    z-index: -99;
 }
 
-#searchform {
-	border: 0;
-}
 
 /* column container */
 .colmask {
@@ -1519,7 +1522,7 @@ HEADER CONTENT STYLES
 	left:80%;			/* Please make note of the brackets here:
 					(100% - left column width) plus (center column left and right padding) plus (left column left and right padding) plus (right column left padding) */
 	padding-top: 65px;
-	padding-left: 25px;
+	padding-left: 15px;
 }
 
 .button {
