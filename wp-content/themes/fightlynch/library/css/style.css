@@ -1605,7 +1605,8 @@ POSTS & CONTENT STYLES
   .entry-content table {
     width: 100%;
     border: 0px;
-    margin-bottom: 1.5em; }
+    margin-bottom: 1.5em;
+    font-size: 16px;}
     .entry-content table caption {
       margin: 0 0 7px;
       font-size: 0.75em;
@@ -1614,16 +1615,21 @@ POSTS & CONTENT STYLES
       letter-spacing: 1px; }
   .entry-content tr {
     border-bottom: 1px solid #eaedf2; }
-    .entry-content tr:nth-child(even) {
-      background-color: #f8f9fa; }
+    .entry-content tr:first-child{
+      font-weight: 700;
+      background-color: #B7DFEC;
+      border-bottom: 1px solid #2980b9; }
+    .entry-content tr:nth-child(odd) {
+      background-color: #DAF1F7; }
   .entry-content td {
-    padding: 7px;
-    border-right: 1px solid #eaedf2; }
+    padding: 20px; }
+    .entry-content td:first-child{
+      font-weight: 700; }
     .entry-content td:last-child {
       border-right: 0; }
   .entry-content th {
     background-color: #f8f9fa;
-    border-bottom: 1px solid #eaedf2;
+    border-bottom: 3px solid #2980b9;
     border-right: 1px solid #eaedf2; }
     .entry-content th:last-child {
       border-right: 0; }
