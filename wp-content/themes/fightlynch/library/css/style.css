@@ -39,7 +39,7 @@ main,
 nav,
 section,
 summary {
-  display: block; 
+  display: block;
   font-family: 'latoreg';
   }
 
@@ -238,9 +238,8 @@ menu {
   padding: 0 0 0 40px; }
 
 ol {
-  padding: 0;
-  list-style-type: none; }
-
+  list-style-type: default;
+}
 /*
  * Corrects list images handled incorrectly in IE7.
  */
@@ -307,7 +306,7 @@ textarea {
   /* 1 */
   font-size: 100%;
   /* 2 */
-  margin: 1px;
+  margin: 0;
   /* 3 */ }
 
 /**
@@ -969,7 +968,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   -webkit-transition: background-color 0.14s ease-in-out;
   transition: background-color 0.14s ease-in-out; }
   .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
-    color: white;
+    color: #fff;
     text-decoration: none; }
   .blue-btn:active, .comment-reply-link:active, #submit:active {
     top: 1px; }
@@ -980,8 +979,8 @@ You can use this example if you want. Just replace all the variables
 and it will create a button dependant on those variables.
 */
 .blue-btn, .comment-reply-link, #submit {
-  background-color: #2980b9; border:none; }
-  .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
+  background-color: #2980b9; }
+   .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
     background-color: #2574a8; }
   .blue-btn:active, .comment-reply-link:active, #submit:active {
     background-color: #2472a4; }
@@ -1396,7 +1395,9 @@ h2, .h2 {
   margin-bottom: 0.375em; }
 
 h3, .h3 {
-  font-size: 1.125em; }
+  font-size: 1.125em;
+  font-weight: 700;
+  color: #2980B9;}
 
 h4, .h4 {
   font-size: 1.1em;
@@ -1495,7 +1496,7 @@ HEADER CONTENT STYLES
 .donate {
 	float:left;
 	position:relative;
-	padding:0 0 1em 0;	/* no left and right padding on columns, we just make them narrower instead 
+	padding:0 0 1em 0;	/* no left and right padding on columns, we just make them narrower instead
 					only padding top and bottom is included here, make it whatever value you need */
 	overflow:hidden;
 }
@@ -1550,7 +1551,7 @@ HEADER CONTENT STYLES
 	text-decoration:none;
 	text-align:center;
 }
-a.button :hover {
+.button :hover {
 	color: #ffffff;
 }
 
@@ -1573,7 +1574,6 @@ POSTS & CONTENT STYLES
 .single-title,
 .page-title,
 .entry-title{
-  color: #333;
   margin: 0; }
 
 /* want to style individual post classes? Booya! */
@@ -1628,11 +1628,20 @@ POSTS & CONTENT STYLES
     .entry-content th:last-child {
       border-right: 0; }
   .entry-content blockquote {
-    margin: 0 0 1.5em 0.75em;
-    padding: 0 0 0 0.75em;
-    border-left: 3px solid #2980b9;
+    margin: 0;
+    padding: 0;
+    color: #4d4d4d;
+    line-height: 2;
+    font-size:18px;
+    }
+  .entry-content cite{
+    margin: 0;
+    padding: 0;
     font-style: italic;
-    color: #9fa6b4; }
+    color: #4d4d4d;
+    line-height: 2;
+    font-size:18px;
+  }
   .entry-content dd {
     margin-left: 0;
     font-size: 0.9em;
@@ -1771,7 +1780,7 @@ COMMENT STYLES
         color: #9fa6b4;
         text-decoration: none; }
         .comment .vcard time a:hover {
-          text-decoration: underline; }
+          text-decoration: none; }
     .comment .vcard .avatar {
       position: absolute;
       left: 16px;
@@ -1903,18 +1912,18 @@ tweeners.
   /******************************************************************
   Site Name:
   Author:
-  
+
   Stylesheet: 481px and Up Stylesheet
-  
+
   This stylesheet is loaded for larger devices. It's set to
   481px because at 480px it would load on a landscaped iPhone.
   This isn't ideal because then you would be loading all those
   extra styles on that same mobile connection.
-  
+
   A word of warning. This size COULD be a larger mobile device,
   so you still want to keep it pretty light and simply expand
   upon your base.scss styles.
-  
+
   ******************************************************************/
   /*
   IMPORTANT NOTE ABOUT SASS 3.3 & UP
@@ -1982,15 +1991,15 @@ you can add resource intensive styles.
   /******************************************************************
   Site Name:
   Author:
-  
+
   Stylesheet: Tablet & Small Desktop Stylesheet
-  
+
   Here's where you can start getting into the good stuff.
   This size will work on iPads, other tablets, and desktops.
   So you can start working with more styles, background images,
   and other resources. You'll also notice the grid starts to
   come into play. Have fun!
-  
+
   ******************************************************************/
   /*********************
   GENERAL STYLES
@@ -2119,12 +2128,12 @@ you can add resource intensive styles.
   /******************************************************************
   Site Name:
   Author:
-  
+
   Stylesheet: Desktop Stylsheet
-  
+
   This is the desktop size. It's larger than an iPad so it will only
   be seen on the Desktop.
-  
+
   ******************************************************************/
   .wrap {
     width: 1040px; } }
@@ -2134,14 +2143,14 @@ This is for the larger monitors and possibly full screen viewers.
 *********************/
 @media only screen and (min-width: 1240px) {
   /******************************************************************
-  Site Name: 
-  Author: 
-  
+  Site Name:
+  Author:
+
   Stylesheet: Super Large Monitor Stylesheet
-  
+
   You can add some advanced styles here if you like. This kicks in
   on larger screens.
-  
+
   ******************************************************************/ }
 /*********************
 RETINA (2x RESOLUTION DEVICES)
@@ -2151,44 +2160,44 @@ query for retina AND a certain size if you want. Go Nuts.
 *********************/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /******************************************************************
-  Site Name: 
-  Author: 
-  
+  Site Name:
+  Author:
+
   Stylesheet: Retina Screens & Devices Stylesheet
-  
+
   When handling retina screens you need to make adjustments, especially
   if you're not using font icons. Here you can add them in one neat
   place.
-  
+
   ******************************************************************/
-  /* 
-  
-  EXAMPLE 
+  /*
+
+  EXAMPLE
   Let's say you have an image and you need to make sure it looks ok
   on retina screens. Let's say we have an icon which dimension are
   24px x 24px. In your regular stylesheets, it would look something
   like this:
-  
+
   .icon {
   	width: 24px;
   	height: 24px;
   	background: url(img/test.png) no-repeat;
   }
-  
+
   For retina screens, we have to make some adjustments, so that image
   doesn't look blurry. So, taking into account the image above and the
   dimensions, this is what we would put in our retina stylesheet:
-  
+
   .icon {
   	background: url(img/test@2x.png) no-repeat;
   	background-size: 24px 24px;
   }
-  
-  So, you would create the same icon, but at double the resolution, meaning 
+
+  So, you would create the same icon, but at double the resolution, meaning
   it would be 48px x 48px. You'd name it the same, but with a @2x at the end
   (this is pretty standard practice). Set the background image so it matches
-  the original dimensions and you are good to go. 
-  
+  the original dimensions and you are good to go.
+
   */ }
 /*********************
 PRINT STYLESHEET
@@ -2200,13 +2209,13 @@ be set to display none.
   /******************************************************************
   Site Name:
   Author:
-  
+
   Stylesheet: Print Stylesheet
-  
+
   This is the print stylesheet. There's probably not a lot
   of reasons to edit this stylesheet. If you want to
   though, go for it.
-  
+
   ******************************************************************/
   * {
     background: transparent !important;
@@ -2217,7 +2226,7 @@ be set to display none.
 
   a, a:visited {
     color: #444 !important;
-    text-decoration: underline; }
+    text-decoration: none; }
     a:after, a:visited:after {
       content: " (" attr(href) ")"; }
     a abbr[title]:after, a:visited abbr[title]:after {
