@@ -40,7 +40,6 @@ nav,
 section,
 summary {
   display: block; 
-  font-family: 'latobold';
   }
 
 /**
@@ -280,9 +279,9 @@ figure {
  * Define consistent border, margin, and padding.
  */
 fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
+  border: 0;
+  margin: 0;
+  padding: 5px; }
 
 /**
  * 1. Correct `color` not being inherited in IE 8/9.
@@ -521,7 +520,7 @@ FONT FACE (IN YOUR FACE)
     src: url('../fonts/lato-reg-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/lato-reg-webfont.woff') format('woff'),
          url('../fonts/lato-reg-webfont.ttf') format('truetype'),
-         url('../fonts/lato-reg-webfont.svg#latobold') format('svg');
+         url('../fonts/lato-reg-webfont.svg#latoreg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -1578,8 +1577,18 @@ HEADER CONTENT STYLES
 	text-decoration:none;
 	text-align:center;
 }
-a.button :hover {
+#donate a:hover, #donate a:visited {
 	color: #ffffff;
+}
+
+#search {
+	width: 250px;
+	z-index: 1000;
+}
+.search_form {
+	position: relative;
+	height: 0;
+	z-index: 1000;
 }
 
 /*********************
@@ -2056,6 +2065,7 @@ you can add resource intensive styles.
         has the possibility of being a mobile device.
         */ }
         .nav li a:hover, .nav li a:focus {
+			color: #0f85d0;
            }
       .nav li ul.sub-menu,
       .nav li ul.children {
@@ -2086,8 +2096,11 @@ you can add resource intensive styles.
             border-bottom: 0; }
       .nav li:hover ul {
         top: auto;
+		color: #0f85d0;
         overflow: visible;
         visibility: visible; }
+      #navigation .current_page_item a:link, #navigation .current_page_item a:visited {
+		color: #0f85d0; }
 
   /* end .nav */
   /*********************

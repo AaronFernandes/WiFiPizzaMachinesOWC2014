@@ -57,14 +57,16 @@
 
 				<div id="inner-header" class="wrap cf">
 				
-				<?php get_search_form(); ?>
+				<div id="search_form" class="search_form">
+					<?php get_search_form(); ?>
+				</div>
 
 					<div class="colmask threecol">
 					 <div class="colmid">
 					  <div class="colleft">
 
 						<div class="navcolumn">
-							<nav role="navigation">
+							<nav role="navigation" id="navigation">
 								<?php wp_nav_menu(array(
 								'container' => false,                           // remove nav container
 								'container_class' => 'menu cf',                 // class of container (should you choose to use it)
@@ -86,7 +88,7 @@
 							<a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo home_url(); ?>/images/ccare-header-logo.png" /></a>
 						</div>
 
-						<div class="donate">
+						<div class="donate" id="donate">
 							<a href="<?php echo home_url(); ?>/donations" class="button">Donate</a>
 						</div>
 					  </div>
