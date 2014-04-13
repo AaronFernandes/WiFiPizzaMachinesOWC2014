@@ -1513,7 +1513,7 @@ SLIDER & LOGO STYLES
 	left:80%;			/* Please make note of the brackets here:
 					(100% - left column width) plus (center column left and right padding) plus (left column left and right padding) plus (right column left padding) */
 	padding-top: 65px;
-	padding-left: 15px;
+	padding-left: 25px;
 }
 
 .button {
