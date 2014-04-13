@@ -284,7 +284,7 @@ figure {
  * Define consistent border, margin, and padding.
  */
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
@@ -1456,7 +1456,7 @@ and more scalable.
 /* end .nav */
 
 /*********************
-SLIDER & LOGO STYLES
+HEADER CONTENT STYLES
 **********************/
 #slidy-container {
    /*width: 68%;*/
@@ -1466,6 +1466,9 @@ SLIDER & LOGO STYLES
    z-index: -99;
 }
 
+#searchform {
+	border: 0;
+}
 
 /* column container */
 .colmask {
@@ -1516,7 +1519,7 @@ SLIDER & LOGO STYLES
 	left:80%;			/* Please make note of the brackets here:
 					(100% - left column width) plus (center column left and right padding) plus (left column left and right padding) plus (right column left padding) */
 	padding-top: 65px;
-	padding-left: 15px;
+	padding-left: 25px;
 }
 
 .button {

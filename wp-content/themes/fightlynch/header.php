@@ -56,6 +56,8 @@
 			<header class="header" role="banner">
 
 				<div id="inner-header" class="wrap cf">
+				
+				<?php get_search_form(); ?>
 
 					<div class="colmask threecol">
 					 <div class="colmid">
@@ -81,11 +83,11 @@
 						</div>
 
 						<div class="logo" >
-							<img src="images/ccare-header-logo.png" />
+							<a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo home_url(); ?>/images/ccare-header-logo.png" /></a>
 						</div>
 
 						<div class="donate">
-							<a href="#" class="button">Donate</a>
+							<a href="<?php echo home_url(); ?>/donations" class="button">Donate</a>
 						</div>
 					  </div>
 					 </div>
