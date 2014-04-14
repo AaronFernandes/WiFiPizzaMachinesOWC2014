@@ -271,7 +271,7 @@ function wprmenu_general_settings_nesting_icon_open() {
 function wprmenu_general_settings_from_width() {
     $options = get_option('wprmenu_options');
     ?>
-    <input id="wprmenu_from_width" name="wprmenu_options[from_width]" min="280" max="962" size="20" type="number" value="<?php echo $options['from_width'] ?>" />
+    <input id="wprmenu_from_width" name="wprmenu_options[from_width]" min="280" max="1030" size="20" type="number" value="<?php echo $options['from_width'] ?>" />
     <?php
 }
 

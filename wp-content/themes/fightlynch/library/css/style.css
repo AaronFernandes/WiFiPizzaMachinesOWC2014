@@ -39,7 +39,7 @@ main,
 nav,
 section,
 summary {
-  display: block; 
+  display: block;
   }
 
 /**
@@ -432,8 +432,8 @@ textarea {
 	width:25%;
 	padding: 10px;
 }
-    
-   
+
+
 /**
  * Remove most spacing between table cells.
  */
@@ -1372,7 +1372,7 @@ LAYOUT & GRID STYLES
 *********************/
 .wrap {
   width: 96%;
-  margin: 0 auto; }
+  margin: auto; }
 
 /*********************
 LINK STYLES
@@ -1509,6 +1509,16 @@ HEADER CONTENT STYLES
 	top: -50px;
 }
 
+#hero-image {
+	z-index: -99;
+}
+
+#hero img, .logo img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
 /* column container */
 .colmask {
 	position:relative;	/* This fixes the IE7 overflow hidden bug */
@@ -1539,26 +1549,26 @@ HEADER CONTENT STYLES
 .threecol {
 }
 .threecol .colmid {
-	right:15%;			/* width of the right column */
+	right:45%;			/* width of the right column */
 }
 .threecol .colleft {
-	right:65%;			/* width of the middle column */
+	right:10%;			/* width of the middle column */
 }
 .threecol .navcolumn {
-	width:65%;			/* width of center column content (column width minus padding on either side) */
+	width:10%;			/* width of center column content (column width minus padding on either side) */
 	left:100%;			/* 100% plus left padding of center column */
 	padding-top: 60px;
 }
 .threecol .logo {
-	width:20%;			/* Width of left column content (column width minus padding on either side) */
-	left:15%;			/* width of (right column) plus (center column left and right padding) plus (left column left padding) */
+	width:45%;			/* Width of left column content (column width minus padding on either side) */
+	left:45%;			/* width of (right column) plus (center column left and right padding) plus (left column left padding) */
 }
 .threecol .donate {
-	width:15%;			/* Width of right column content (column width minus padding on either side) */
-	left:80%;			/* Please make note of the brackets here:
+	width:45%;			/* Width of right column content (column width minus padding on either side) */
+	left:55%;			/* Please make note of the brackets here:
 					(100% - left column width) plus (center column left and right padding) plus (left column left and right padding) plus (right column left padding) */
 	padding-top: 65px;
-	padding-left: 15px;
+	padding-left: 55px;
 }
 
 .button {
@@ -1592,6 +1602,11 @@ HEADER CONTENT STYLES
 	color: #0f85d0;
 }
 
+#navigation .current-page-ancestor a,
+#navigation .current-page-ancestor a:hover {
+	color: #0f85d0;
+}
+
 #donate a:hover, #donate a:visited {
 	color: #ffffff;
 }
@@ -1602,7 +1617,6 @@ HEADER CONTENT STYLES
 }
 .search_form {
 	position: relative;
-	height: 0;
 	z-index: 1000;
 }
 
@@ -2010,6 +2024,14 @@ tweeners.
           has the possibility of being a mobile device.
           */ }
 
+.logo img {
+	max-height: 161px;
+	max-width: 133px;
+}
+.search_form {
+	height: 0;
+}
+
   /* end .menu */
   /*********************
   POSTS & CONTENT STYLES
@@ -2071,7 +2093,9 @@ you can add resource intensive styles.
 
   /*********************
   HEADER STYLES
+  This changes the header when the nav goes to the hamburger menu
   *********************/
+
   /*********************
   NAVIGATION STYLES
   *********************/
@@ -2197,7 +2221,62 @@ you can add resource intensive styles.
 
   ******************************************************************/
   .wrap {
-    width: 1040px; } }
+    width: 1040px; }
+
+
+
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	height:110px;
+	/*overflow:hidden;		 This chops off any overhanging divs */
+}
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;			/* width of page */
+	position:relative;
+}
+.logo,
+.navcolumn,
+.donate {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;	/* no left and right padding on columns, we just make them narrower instead
+					only padding top and bottom is included here, make it whatever value you need */
+	overflow:hidden;
+}
+/* 3 Column settings */
+.threecol {
+}
+.threecol .colmid {
+	right:15%;			/* width of the right column */
+}
+.threecol .colleft {
+	right:65%;			/* width of the middle column */
+}
+.threecol .navcolumn {
+	width:65%;			/* width of center column content (column width minus padding on either side) */
+	left:100%;			/* 100% plus left padding of center column */
+	padding-top: 60px;
+}
+.threecol .logo {
+	width:20%;			/* Width of left column content (column width minus padding on either side) */
+	left:15%;			/* width of (right column) plus (center column left and right padding) plus (left column left padding) */
+}
+.threecol .donate {
+	width:15%;			/* Width of right column content (column width minus padding on either side) */
+	left:80%;			/* Please make note of the brackets here:
+					(100% - left column width) plus (center column left and right padding) plus (left column left and right padding) plus (right column left padding) */
+	padding-top: 65px;
+	padding-left: 15px;
+}
+}
 /*********************
 LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
