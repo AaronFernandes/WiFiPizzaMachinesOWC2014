@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: Custom Page Example
+ Template Name: Custom Page Template
  *
  * This is your custom page template. You can create as many of these as you need.
  * Simply name is "page-whatever.php" and in add the "Template Name" title at the
@@ -19,7 +19,7 @@
 
 				<div id="inner-content" class="wrap cf">
 
-						<div id="main" class="m-all t-2of3 d-5of7 cf" role="main">
+						<div id="main" class="m-all cf" role="main">
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

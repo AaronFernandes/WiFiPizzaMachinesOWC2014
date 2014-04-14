@@ -15,8 +15,8 @@
 
 <?php get_header(); ?>
 
-	<center><div id="slidy-container" class="wrap">
-	  <figure id="slidy">
+	<center><div id="hero-image" class="wrap">
+	  <figure id="hero">
 		<img src="../images/ccare-fam-main-image.png" />
 	  </figure>
 	</div>

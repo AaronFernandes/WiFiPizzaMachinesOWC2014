@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WP Responsive Menu
+Plugin Name: Mobile Menu (Don't Update Me!)
 Plugin URI: http://magnigenie.com/wp-responsive-menu-mobile-menu-plugin-wordpress/
 Description: WP Responsive Menu adds a cool sliding responsive menu to your site.
 Version: 1.0
@@ -58,6 +58,7 @@ function wprmenu_menu() {
 			<div class="menu_title">
 				<?php $title = ucwords(str_replace('-', ' ', trim( $_SERVER["REQUEST_URI"] , '/' ))); ?>
 				<?php if($title == '') $title = 'Home'; ?>
+				<?php if(preg_match("/s=/", $title)) $title = 'Search'; ?>
 				<?php echo $title ?>
 				<?php if($options['bar_logo']) echo '<img class="bar_logo" src="'.$options['bar_logo'].'"/>' ?>
 			</div>
