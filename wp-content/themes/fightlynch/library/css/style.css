@@ -159,10 +159,10 @@ hr {
  * proper formatting (http://blog.fontdeck.com/post/9037028497/hyphens)
 */
 p {
-  -webkit-hyphens: auto;
-  -epub-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto; }
+  -webkit-hyphens: none;
+  -epub-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none; }
 
 /*
  * Addresses margins set differently in IE6/7.
@@ -590,16 +590,13 @@ some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
 p {
-  -ms-word-break: break-all;
-  -ms-word-wrap: break-all;
-  word-break: break-word;
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
-  -webkit-hyphenate-before: 2;
-  -webkit-hyphenate-after: 3;
-  hyphenate-lines: 3;
+  -ms-word-break: none;
+  -ms-word-wrap: none;
+  word-break: none;
+  word-break: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
   -webkit-font-feature-settings: "liga", "dlig";
   -moz-font-feature-settings: "liga=1, dlig=1";
   -ms-font-feature-settings: "liga", "dlig";
@@ -1420,7 +1417,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-family:	'latobold';
-  color: #4d4d4d;
+  color: #2980B9;
   font-size: 20pt;
   line-height: 1.4em;
   margin-bottom: 0.375em; }
@@ -1429,17 +1426,18 @@ h3, .h3 {
   font-size: 1.125em;
   font-family: 'latobold';
   font-weight: 700;
-  color: #2980B9;}
+  color: #4d4d4d;}
 
 h4, .h4 {
   font-size: 1.1em;
   font-weight: 700; }
 
 h5, .h5 {
-  font-size: 0.846em;
+  font-size: 0.946em;
   line-height: 2.09em;
   text-transform: uppercase;
-  letter-spacing: 2px; }
+  letter-spacing: 3px;
+  margin-bottom: -10px; }
 
 /*********************
 HEADER STYLES
@@ -1781,7 +1779,7 @@ POSTS & CONTENT STYLES
     width: 100%;
     border: 0px;
     margin-bottom: 1.5em;
-    font-size: 16px;}
+    font-size: 16px; }
     .entry-content table caption {
       margin: 0 0 7px;
       font-size: 0.75em;
@@ -1789,21 +1787,21 @@ POSTS & CONTENT STYLES
       text-transform: uppercase;
       letter-spacing: 1px; }
   .entry-content tr {
-    border-bottom: 1px solid #eaedf2; }
+    border-bottom: 1px solid #4d4d4d; }
     .entry-content tr:first-child{
       font-weight: 700;
       background-color: #B7DFEC;
       border-bottom: 1px solid #2980b9; }
-    .entry-content tr:nth-child(odd) {
-      background-color: #F8F9FA; }
   .entry-content td {
     padding: 20px; }
     .entry-content td:first-child{
-      font-weight: 700; }
+      font-weight: 700;
+      text-align: center;
+      background-color: #AFE2EF; }
     .entry-content td:last-child {
       border-right: 0; }
   .entry-content th {
-    background-color: #f8f9fa;
+    background-color: #fff;
     border-bottom: 1px solid #333;
     text-align: left;
     height: 60px;
@@ -2384,7 +2382,7 @@ you can add resource intensive styles.
 }
 .threecol .donate {
 	width:15%;			/* Width of right column content (column width minus padding on either side) */
-	left:80%;			/* Please make note of the brackets here:
+	left:83.5%;			/* Please make note of the brackets here:
 					(100% - left column width) plus (center column left and right padding) plus (left column left and right padding) plus (right column left padding) */
 	padding-top: 65px;
 	padding-left: 15px;
