@@ -1501,6 +1501,115 @@ HEADER CONTENT STYLES
    /*width: 68%;*/
 }
 
+
+/*******************************
+Custom CSS for front page slider
+********************************/
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+  
+.rslides_container {
+	margin-bottom: 50px;
+	position: relative;
+	float: left;
+	width: 100%;
+	top: -103px;
+}
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+.rslides_nav:active {
+  opacity: 1.0;
+  }
+
+.rslides_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 0;
+  }
+
+.rslides_nav:focus {
+  outline: none;
+  }
+
+.rslides_tabs {
+  margin-top: 10px;
+  text-align: center;
+  }
+
+.rslides_tabs li {
+  display: inline;
+  float: none;
+  _float: left;
+  *float: left;
+  margin-right: 5px;
+  }
+
+.rslides_tabs a{
+  text-indent: -9999px;
+  overflow: hidden;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background: #ccc;
+  background: rgba(0,0,0, .2);
+  display: inline-block;
+  _display: block;
+  *display: block;
+  -webkit-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+  -moz-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+  box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+  width: 9px;
+  height: 9px;
+  }
+
+.rslides_here a {
+  background: #222;
+  background: rgba(0,0,0, .8);
+}
+  
+.caption {
+	background: rgba(0,0,0, .15);
+	text-shadow: 1px 1px #333333;
+	text-align: left;
+	color: #f2f2f2;
+	font-size: 100%;
+	font-style: italic;
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	padding: 15px;
+}
+
 #slidy {
    z-index: -99;
 }
@@ -1562,6 +1671,7 @@ HEADER CONTENT STYLES
 .threecol .logo {
 	width:45%;			/* Width of left column content (column width minus padding on either side) */
 	left:45%;			/* width of (right column) plus (center column left and right padding) plus (left column left padding) */
+	z-index: 10;
 }
 .threecol .donate {
 	width:45%;			/* Width of right column content (column width minus padding on either side) */
@@ -2096,6 +2206,9 @@ you can add resource intensive styles.
   This changes the header when the nav goes to the hamburger menu
   *********************/
 
+.caption {
+	font-size: 200%;
+}
   /*********************
   NAVIGATION STYLES
   *********************/
@@ -2275,6 +2388,9 @@ you can add resource intensive styles.
 					(100% - left column width) plus (center column left and right padding) plus (left column left and right padding) plus (right column left padding) */
 	padding-top: 65px;
 	padding-left: 15px;
+}
+.caption {
+	font-size: 300%;
 }
 }
 /*********************
