@@ -17,16 +17,16 @@
 
 	<center><div id="hero-image" class="wrap">
 	  <figure id="hero">
-		<img src="../images/ccare-phys-main-image.png" />
+		<img src="../../images/ccare-phys-main-image.png" />
 	  </figure>
 	</div>
 	<div style="position: relative; top: -15px;">
-	<a title="Cancer Screening" href="../physicians-info/cancer-screening/">Cancer Screening</a> &bull; 
-	<a title="Women &amp; Lynch Syndrome" href="../physicians-info/related-cancers/">Related Cancers</a> &bull; 
-	<a title="Women &amp; Lynch Syndrome" href="../physicians-info/screening-criteria/">Screening Criteria</a> &bull; 
-	<a title="Women &amp; Lynch Syndrome" href="../physicians-info/genetic-testing/">Genetic Testing</a> &bull; 
-	<a title="Women &amp; Lynch Syndrome" href="../physicians-info/insurance-issues/">Insurance Issues</a> &bull; 
-	<a title="Insurance Issues" href="../physicians-info/preventative-surgery/">Preventive Surgery</a></div>
+	<a title="Cancer Screening" href="../../physicians-info/cancer-screening/">Cancer Screening</a> &bull; 
+	<a title="Related Cancers" href="../../physicians-info/related-cancers/">Related Cancers</a> &bull; 
+	<a title="Screening Criteria" href="../../physicians-info/screening-criteria/">Screening Criteria</a> &bull; 
+	<a title="Genetic Testing" href="../../physicians-info/genetic-testing/">Genetic Testing</a> &bull; 
+	<a title="Insurance Issues" href="../../physicians-info/insurance-issues/">Insurance Issues</a> &bull; 
+	<a title="Preventive Surgery" href="../../physicians-info/preventative-surgery/">Preventive Surgery</a></div>
 	<hr noshade />
 	</center>
 
