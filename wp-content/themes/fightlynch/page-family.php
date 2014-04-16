@@ -17,13 +17,13 @@
 
 	<center><div id="hero-image" class="wrap">
 	  <figure id="hero">
-		<img src="../images/ccare-fam-main-image.png" />
+		<img src="../../images/ccare-fam-main-image.png" />
 	  </figure>
 	</div>
 	<div style="position: relative; top: -15px;">
-	<a title="Cancer Screening" href="../families-info/cancer-screening/">Cancer Screening</a> &bull; 
-	<a title="Women &amp; Lynch Syndrome" href="../families-info/women-lynch-syndrome/">Women With Lynch</a> &bull; 
-	<a title="Insurance Issues" href="../families-info/insurance-issues/">Insurance Issues</a></div>
+	<a title="Cancer Screening" href="../../families-info/cancer-screening/">Cancer Screening</a> &bull; 
+	<a title="Women &amp; Lynch Syndrome" href="../../families-info/women-lynch-syndrome/">Women With Lynch</a> &bull; 
+	<a title="Insurance Issues" href="../../families-info/insurance-issues/">Insurance Issues</a></div>
 	<hr noshade />
 	</center>
 
@@ -43,7 +43,7 @@
 
 								</header>
 
-								<section class="entry-content cf" itemprop="articleBody">
+								<section class="entry-content cf" itemprop="articleBody" >
 									<?php
 										// the content (pretty self explanatory huh)
 										the_content();
