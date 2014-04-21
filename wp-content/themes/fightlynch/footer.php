@@ -18,7 +18,13 @@
 						)); ?>
 					</nav>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> Colon Cancer Alliance for Research and Education for Lynch Syndrome</p>
+					<center>
+						<a href="https://www.facebook.com/lynchsyndrome"><img alt="Facebook" src="../images/ic_fb.png" /></a>
+						<a href="http://twitter.com/CCAREfightlynch"><img alt="Twitter" src="../images/ic_tw.png" /></a>
+						<a href="https://www.youtube.com/channel/UCl2BpIR3ds6sHQz19c9O15Q"><img alt="Youtube" src="../images/ic_yt.png" /></a>
+						<p>Information on this website is for informational purposes only. It is not meant for diagnosis or treatment of any condition.
+						Please discuss all personal health issues with your physician.</p>
+						<p class="source-org copyright">&copy; <?php echo date('Y'); ?> Colon Cancer Alliance for Research and Education for Lynch Syndrome</p>
 
 				</div>
 
