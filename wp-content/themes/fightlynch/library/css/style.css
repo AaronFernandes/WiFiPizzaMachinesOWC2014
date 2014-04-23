@@ -1529,6 +1529,7 @@ Custom CSS for front page slider
 	float: left;
 	width: 100%;
 	top: -100px;
+	max-height: 345px;
 }
 
 .rslides li:first-child {
@@ -1886,6 +1887,7 @@ POSTS & CONTENT STYLES
 
 .half-div-center {
 	width: 40%;
+	height: 100%;
 }
 
 #events-main {
@@ -1894,7 +1896,7 @@ POSTS & CONTENT STYLES
 
 #event-thumb {
 	float: left;
-	width: 30%;
+	width: 270px;
 	margin:0 13px;
 }
 .event_thumb_holder {

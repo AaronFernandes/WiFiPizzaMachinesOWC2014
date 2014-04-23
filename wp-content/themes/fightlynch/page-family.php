@@ -21,8 +21,8 @@
 	  </figure>
 	</div>
 	<div style="position: relative; top: -15px;">
-	<a title="Cancer Screening" href="../../families-info/cancer-screening/">Cancer Screening</a> &bull; 
-	<a title="Women &amp; Lynch Syndrome" href="../../families-info/women-lynch-syndrome/">Women With Lynch</a> &bull; 
+	<a title="Cancer Screening" href="../../families-info/cancer-screening/">Cancer Screening</a> &bull;
+	<a title="Women &amp; Lynch Syndrome" href="../../families-info/women-lynch-syndrome/">Women With Lynch</a> &bull;
 	<a title="Insurance Issues" href="../../families-info/insurance-issues/">Insurance Issues</a></div>
 	<hr noshade />
 	</center>
