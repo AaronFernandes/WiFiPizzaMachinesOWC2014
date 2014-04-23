@@ -1726,11 +1726,11 @@ Custom CSS for front page slider
 
 #search {
 	width: 250px;
-	z-index: 1000;
+	z-index: 9;
 }
 .search_form {
 	position: relative;
-	z-index: 1000;
+	z-index: 9;
 }
 
 /*********************
