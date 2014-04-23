@@ -259,7 +259,7 @@ nav ol {
  * Remove border when inside `a` element in IE 8/9.
  */
 img {
-  border: 0; }
+  border: 0;}
 
 /**
  * Correct overflow displayed oddly in IE 9.
@@ -1377,6 +1377,7 @@ LINK STYLES
 *********************/
 a {
   color: #00aeef;
+  text-decoration: none;
   /* on hover */
   /* on click */
   /* mobile tap color */ }
@@ -1521,13 +1522,13 @@ Custom CSS for front page slider
   left: 0;
   top: 0;
   }
-  
+
 .rslides_container {
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 	position: relative;
 	float: left;
 	width: 100%;
-	top: -103px;
+	top: -80px;
 }
 
 .rslides li:first-child {
@@ -1593,7 +1594,7 @@ Custom CSS for front page slider
   background: #222;
   background: rgba(0,0,0, .8);
 }
-  
+
 .caption {
 	background: rgba(0,0,0, .15);
 	text-shadow: 1px 1px #333333;
@@ -1831,7 +1832,7 @@ POSTS & CONTENT STYLES
     color: #787878;
     margin-bottom: 1.5em; }
   .entry-content img {
-    margin: 0 0 1.5em 0;
+    margin: 0 0 0 0;
     max-width: 100%;
     height: auto; }
   .entry-content .size-auto,
@@ -1871,6 +1872,35 @@ POSTS & CONTENT STYLES
 .tags {
   margin: 0; }
 
+.half-div-left {
+	width: 40%;
+	float: left;
+}
+
+.half-div-right {
+	width: 40%;
+	float: right;
+}
+
+.half-div-center {
+	width: 40%;
+}
+
+#events-main {
+	padding: 0 7%;
+}
+
+#event-thumb {
+	float: left;
+	width: 33%;
+	margin:0 13px;
+}
+.event_thumb_holder {
+	height: 18px;
+}
+.event_thumb_text_holder {
+	height: 10px;
+}
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
