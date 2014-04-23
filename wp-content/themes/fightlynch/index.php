@@ -1,18 +1,5 @@
 <?php get_header(); ?>
 
-	<center><div id="slidy-container">
-	  <figure id="slidy">
-		<img src="images/dreamstime_5782247_DNA_cropped.jpg" />
-		<img src="images/dreamstime_7457010_scientist_cropped.jpg" />
-		<img src="images/dreamstime_8781320_group_cropped.jpg" />
-		<img src="images/dreamstime_13077435_doctors_cropped.jpg" />
-	  </figure>
-	</div></center>
-	<script type="text/javascript" src="js/cssslidy.js"></script>
-	<script type="text/javascript">
-	  cssSlidy();
-	</script>
-
 			<div id="content" class="wrap">
 
 				<div id="inner-content" class="cf">
