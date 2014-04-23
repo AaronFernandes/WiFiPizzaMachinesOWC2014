@@ -56,7 +56,7 @@
 			<header class="header" role="banner">
 
 				<div id="inner-header" class="wrap cf">
-				
+
 				<div id="search_form" class="search_form">
 					<?php get_search_form(); ?>
 				</div>
