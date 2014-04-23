@@ -119,7 +119,8 @@ a:hover {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+  margin-top: 0;  }
 
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
@@ -1767,6 +1768,7 @@ POSTS & CONTENT STYLES
 /* entry content */
 .entry-content {
   padding: 1.5em 1.5em 0;
+  padding-top: 0;
   /*
   image alignment on a screen this size may be
   a bit difficult. It's set to start aligning
