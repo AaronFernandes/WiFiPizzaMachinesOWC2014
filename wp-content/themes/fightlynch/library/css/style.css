@@ -460,6 +460,9 @@ table {
     display: table; }
   .clearfix:after, .cf:after, .comment-respond:after {
     clear: both; }
+.clearboth {
+	clear: both;
+}
 
 /*
 use the best ampersand
