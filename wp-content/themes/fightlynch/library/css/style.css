@@ -1719,7 +1719,8 @@ Custom CSS for front page slider
 	font-size:14pt;
 	height:35px;
 	line-height:35px;
-	width:100px;
+	padding-left: 10px;
+	padding-right: 10px;
 	text-decoration:none;
 	text-align:center;
 }
@@ -1741,6 +1742,9 @@ Custom CSS for front page slider
 #search {
 	width: 250px;
 	z-index: 9;
+	float: right;
+	overflow: visible;
+	background: #e8e8e8 url('../../../../../images/search.png') no-repeat scroll right center;
 }
 .search_form {
 	position: relative;
@@ -1794,7 +1798,7 @@ POSTS & CONTENT STYLES
   but it's up to you. Feel free to change it up.
   */ }
   .entry-content p {
-    margin: 0 0 1.5em; }
+    margin: 0 0 1.5em }
   .entry-content table {
     width: 100%;
     border: 0px;
@@ -1904,6 +1908,13 @@ POSTS & CONTENT STYLES
 	height: 100%;
 }
 
+.sidebar {
+	float: right;
+	width: 25%;
+	margin-left: 10%;
+	margin-bottom: 50px;
+}
+
 #events-main {
 	padding: 0 7%;
 }
@@ -1919,6 +1930,42 @@ POSTS & CONTENT STYLES
 .event_thumb_text_holder {
 	height: 10px;
 }
+
+/*Colored Circles for the About page */
+.peach {
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	background: #fbc2cb;
+	float: left;
+	margin-right: 5px;
+}
+.periwinkle {
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	background: #9164c1;
+	float: left;
+	margin-right: 5px;
+}
+.teal {
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	background: #339797;
+	float: left;
+	margin-right: 5px;
+}
+.blue {
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	background: #171bf0;
+	float: left;
+	margin-right: 5px;
+}
+.colortext { }
+
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
