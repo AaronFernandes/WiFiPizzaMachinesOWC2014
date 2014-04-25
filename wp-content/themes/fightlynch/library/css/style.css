@@ -1633,6 +1633,17 @@ Custom CSS for front page slider
 	max-width: 100%;
 }
 
+/*CCARE Lynch Full Foundation Name */
+.ccare_ls {
+	text-align: center;
+	font-family: latolight;
+	font-size: 18pt;
+	position: relative;
+	top: -90px;
+	height: 5px;
+	color: #a7a7a7;
+}
+
 
 /* column container */
 .colmask {
