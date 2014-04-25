@@ -460,6 +460,9 @@ table {
     display: table; }
   .clearfix:after, .cf:after, .comment-respond:after {
     clear: both; }
+.clearboth {
+	clear: both;
+}
 
 /*
 use the best ampersand
@@ -1628,6 +1631,17 @@ Custom CSS for front page slider
 #hero img, .logo img {
 	max-height: 100%;
 	max-width: 100%;
+}
+
+/*CCARE Lynch Full Foundation Name */
+.ccare_ls {
+	text-align: center;
+	font-family: latolight;
+	font-size: 18pt;
+	position: relative;
+	top: -90px;
+	height: 5px;
+	color: #a7a7a7;
 }
 
 
