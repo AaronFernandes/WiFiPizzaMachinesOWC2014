@@ -1,33 +1,4 @@
-<?php /*
-
-*******************************************************************************
-
-Copyright (C) 2013 Nicolas Jonas ( This entire thing )
-Copyright (C) 2013 Sutherland Boswell ( some code in the 'get_thumbnail' method is based on https://github.com/suth/video-thumbnails/tree/master/php/providers )
-Copyright (C) 2013 Tom Mc Farlin and WP Plugin Boilerplate Contributors ( Used as base for this plugin )
-
-This file is part of Advanced Responsive Video Embedder.
-
-Advanced Responsive Video Embedder is free software: you can redistribute it
-and/or modify it under the terms of the GNU General Public License as
-published by the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-Advanced Responsive Video Embedder is distributed in the hope that it will be
-useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General
-Public License for more details.
-
-You should have received a copy of the GNU General Public License along with
-Advanced Responsive Video Embedder.  If not, see
-<http://www.gnu.org/licenses/>.
-
-_  _ ____ _  _ ___ ____ ____ _  _ ___ _  _ ____ _  _ ____ ____  ____ ____ _  _ 
-|\ | |___  \/   |  | __ |___ |\ |  |  |__| |___ |\/| |___ [__   |    |  | |\/| 
-| \| |___ _/\_  |  |__] |___ | \|  |  |  | |___ |  | |___ ___] .|___ |__| |  | 
-
-*******************************************************************************/
-
+<?php
 /**
  * Plugin Name.
  *
@@ -35,16 +6,13 @@ _  _ ____ _  _ ___ ____ ____ _  _ ___ _  _ ____ _  _ ____ ____  ____ ____ _  _
  * @author    Nicolas Jonas
  * @license   GPL-3.0
  * @link      http://nextgenthemes.com
- * @copyright 2013 Nicolas Jonas
+ * @copyright Copyright (c) 2014 Nicolas Jonas, Copyright (c) 2014 Tom Mc Farlin and WP Plugin Boilerplate Contributors (Used as base for this plugin), Copyright (c) 2014 Sutherland Boswell (some code in the 'get_thumbnail' method is based on https://github.com/suth/video-thumbnails/tree/master/php/providers)
+ * _  _ ____ _  _ ___ ____ ____ _  _ ___ _  _ ____ _  _ ____ ____  ____ ____ _  _  
+ * |\ | |___  \/   |  | __ |___ |\ |  |  |__| |___ |\/| |___ [__   |    |  | |\/| 
+ * | \| |___ _/\_  |  |__] |___ | \|  |  |  | |___ |  | |___ ___] .|___ |__| |  | 
  */
 
 /**
- * Plugin class. This class should ideally be used to work with the
- * public-facing side of the WordPress site.
- *
- * If you're interested in introducing administrative or dashboard
- * functionality, then refer to `class-plugin-name-admin.php`
- *
  * @package Advanced_Responsive_Video_Embedder
  * @author  Nicolas Jonas
  */
@@ -56,7 +24,7 @@ class Advanced_Responsive_Video_Embedder {
 	 * @since   2.6.0
 	 * @var     string
 	 */
-	const VERSION = '4.5.3';
+	const VERSION = '4.6.0';
 
 	/**
 	 * Unique identifier for your plugin.
@@ -417,19 +385,19 @@ class Advanced_Responsive_Video_Embedder {
 			),
 			'params' => array(
 				#'archiveorg'      => '',
-				'blip'            => array(),
+				'blip'            => '',
 				#'break'           => '',
 				#'collegehumor'    => '',
 				#'comedycentral'   => '',
-				'dailymotion'     => array( 'logo' => '0', 'hideInfos' => '1', 'related' => '0', 'forcedQuality' => 'hq' ),
-				'dailymotionlist' => array( 'logo' => '0', 'hideInfos' => '1', 'related' => '0', 'forcedQuality' => 'hq' ),
+				'dailymotion'     => 'logo=0  hideInfos=1  related=0  forcedQuality=hd  ',
+				'dailymotionlist' => 'logo=0  hideInfos=1  related=0  forcedQuality=hd  ',
 				#'flickr'          => '',
 				#'funnyordie'      => '',
 				#'gametrailers'    => '',
-				'iframe'          => array(),
+				'iframe'          => '',
 				#'ign'             => '',
 				#'kickstarter'     => '',
-				'liveleak'        => array( 'wmode' => 'transparent' ),
+				'liveleak'        => 'wmode=transparent  ',
 				#'metacafe'        => '',
 				#'movieweb'        => '',
 				#'myspace'         => '',
@@ -437,29 +405,15 @@ class Advanced_Responsive_Video_Embedder {
 				#'snotr'           => '',
 				#'spike'           => '',
 				#'ted'             => '',
-				'ustream'         => array( 'v' => '3', 'wmode' => 'transparent' ),
-				'veoh'            => array( 'player' => 'videodetailsembedded', 'id' => 'anonymous' ),
-				'vevo'            => array(
-					'playlist'       => 'false',
-					'playerType'     => 'embedded',
-					#'playerId'       => '62FF0A5C-0D9E-4AC1-AF04-1D9E97EE3961',
-					'env'            => '0',
-					#'cultureName'    => 'en-US',
-					#'cultureIsRTL'   => 'False',
-				),
-				'viddler'         => array( 'f' => '1', 'disablebranding' => '1', 'wmode' => 'transparent' ),
-				'vine'            => array(), //* audio=1 supported
+				'ustream'         => 'v=3  wmode=transparent  ',
+				'veoh'            => 'player=videodetailsembedded  id=anonymous  ',
+				'vevo'            => 'playlist=false  playerType=embedded  env=0  ', // playerId=62FF0A5C-0D9E-4AC1-AF04-1D9E97EE3961
+				'viddler'         => 'f=1  disablebranding=1  wmode=transparent  ',
+				'vine'            => '', //* audio=1 supported
 				#'videojug'        => '',
-				'vimeo'           => array ( 'html5' => '1', 'title' => '0', 'byline' => '0', 'portrait' => '0' ),
+				'vimeo'           => 'html5=1  title=0  byline=0  portrait=0  ',
 				#'yahoo'           => '',
-				'youtube'         => array(
-					#'theme'          => 'dark',
-					'autohide'       => '1',
-					'iv_load_policy' => '3',
-					'modestbranding' => '1',
-					'rel'            => '0',
-					'wmode'          => 'transparent',
-				),
+				'youtube'         => 'autohide=1  iv_load_policy=3  modestbranding=1  rel=0  wmode=transparent  ',
 			)
 		);
 
@@ -469,7 +423,23 @@ class Advanced_Responsive_Video_Embedder {
 
 		$options               = wp_parse_args( $options,               $defaults );
 		$options['shortcodes'] = wp_parse_args( $options['shortcodes'], $defaults['shortcodes'] );
-		$options['params']     = wp_parse_args( $options['params'],     $defaults['params'] );
+
+		//* Convert array from old versions TODO remove later
+		foreach( $options['params'] as $provider => $params ) {
+
+			if ( is_array( $params ) ) {
+
+				$params_str = '';
+
+				foreach ( $params as $key => $var ) {
+					$params_str .= (string) "{$key}={$var}  ";
+				}
+
+				$options['params'][ $provider ] = $params_str;
+			}
+		}
+
+		$options['params'] = wp_parse_args( $options['params'], $defaults['params'] );
 
 		#update_option( 'arve_options', $options );
 		$this->options = $options;
@@ -1065,11 +1035,16 @@ class Advanced_Responsive_Video_Embedder {
 			}
 		}
 
-		//* Take parameters from Options as defaults and maybe merge custom parameters from shortcode in. If there are no options we assume the provider not supports any params and do nothing.
+		//* Take parameters from Options as defaults and maybe merge custom parameters from shortcode in. 
+		//* If there are no options we assume the provider not supports any params and do nothing.
 		if ( ! empty( $options['params'][ $provider ] ) ) {
-			$parameters = $this->parse_parameters( $parameters );
-			$params  = wp_parse_args( $parameters, $options['params'][$provider] );
-			$urlcode = add_query_arg( $params, $urlcode );
+
+			$parameters        = $this->parse_parameters( $parameters );
+			$option_parameters = $this->parse_parameters( $options['params'][ $provider ] );
+
+			$parameters = wp_parse_args( $parameters, $option_parameters );
+
+			$urlcode = add_query_arg( $parameters, $urlcode );
 		}
 
 		switch ( $provider ) {
