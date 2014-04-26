@@ -20,7 +20,7 @@
 
 							</section>
 
-							<section class="search">
+							<section class="search_404">
 
 									<p><?php get_search_form(); ?></p>
 

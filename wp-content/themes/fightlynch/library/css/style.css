@@ -1746,6 +1746,14 @@ Custom CSS for front page slider
 	overflow: visible;
 	background: #e8e8e8 url('../../../../../images/search.png') no-repeat scroll right center;
 }
+#search_404 {
+	width : 250px
+	z-index: 9;
+	float: left;
+	overflow: visible;
+	background: #e8e8e8 url('../../../../../images/search.png') no-repeat scroll right center;
+}
+
 .search_form {
 	position: relative;
 	z-index: 9;
