@@ -46,7 +46,18 @@
 
 		</script>
 		<?php // end analytics ?>
-
+		
+		<?php // start redirector ?>
+		<script language="javascript" type="text/javascript">
+			function redirect_after_click(href) {
+				setTimeout(go_to_url(href), 2000)
+			}
+			function go_to_url(href) {
+				window.location.href = href;
+			}			
+		</script>
+		<?php //end redirector ?>
+		
 	</head>
 
 	<body <?php body_class(); ?>>
