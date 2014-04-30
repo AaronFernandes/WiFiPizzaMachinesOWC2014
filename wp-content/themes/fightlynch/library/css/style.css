@@ -152,7 +152,8 @@ hr {
   box-sizing: content-box;
   background-color: #f2f2f2;
   border: 0;
-  width: 861px;
+  width: 80%;
+  max-width: 861px;
   height: 2px;
 }
 
