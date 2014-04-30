@@ -1916,13 +1916,7 @@ POSTS & CONTENT STYLES
 .half-div-center {
 	width: 40%;
 	height: 100%;
-}
-
-.sidebar {
-	float: right;
-	width: 25%;
-	margin-left: 10%;
-	margin-bottom: 50px;
+	margin: auto;
 }
 
 #events-main {
@@ -2305,6 +2299,14 @@ you can add resource intensive styles.
   *********************/
   .wrap {
     width: 760px; }
+	
+
+.sidebar {
+	float: right;
+	width: 25%;
+	margin-left: 10%;
+	margin-bottom: 50px;
+}
 
   /*********************
   HEADER STYLES
