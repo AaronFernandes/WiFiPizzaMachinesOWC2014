@@ -1645,6 +1645,13 @@ Custom CSS for front page slider
 	color: #a7a7a7;
 }
 
+/* Responsives */
+@media screen and (max-width: 1030px) {
+  .ccare_ls {
+	top: -100px;
+  }
+}
+
 
 /* column container */
 .colmask {
