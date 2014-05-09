@@ -1652,6 +1652,20 @@ Custom CSS for front page slider
   }
 }
 
+/* Responsive move up slider */ 
+@media screen and (max-width: 480px) {
+	.rslides_container {
+		top: -85px;
+	}
+	
+    .ccare_ls {
+		top: -130px;
+  	}
+  	
+  	.threecol .donate {
+  		padding-top: 35px;
+  	}
+}
 
 /* column container */
 .colmask {
