@@ -1741,6 +1741,10 @@ Custom CSS for front page slider
 	color: #ffffff;
 }
 
+#download a:hover, #download a:visited {
+	color: #ffffff;
+}
+
 #search {
 	width: 250px;
 	z-index: 9;
