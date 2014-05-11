@@ -66,7 +66,7 @@
 						</div>
 
 						<!-- Activities/Events -->
-						<h3>CCARE Activities</h3>
+						<h3>CCARE Events and News</h3>
 						<!-- do stuff to display 2 events and 1 blog post -->
 						<div id="events-main">
 							<?php
