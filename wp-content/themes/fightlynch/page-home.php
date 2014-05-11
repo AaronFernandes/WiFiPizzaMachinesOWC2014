@@ -66,7 +66,7 @@
 						</div>
 
 						<!-- Activities/Events -->
-						<h3>CCARE Events and News</h3>
+						<h2>CCARE Events and News</h2>
 						<!-- do stuff to display 2 events and 1 blog post -->
 						<div id="events-main">
 							<?php
@@ -77,7 +77,7 @@
 									<div id="event-thumb">
 										<?php if ( has_post_thumbnail() ) { ?> <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( array(270,270) ); ?></a> <?php } ?>
 										<div class="event_thumb_holder">&nbsp;</div>
-										<?php the_title(); ?>
+										<strong><?php the_title(); ?></strong>
 										<div class="event_thumb_text_holder">&nbsp;</div>
 										<?php the_excerpt(); ?>
 										<?php ?>
@@ -95,7 +95,7 @@
 									<div id="event-thumb">
 										<?php if ( has_post_thumbnail() ) { ?> <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( array(270,270) ); ?></a> <?php } ?>
 										<div class="event_thumb_holder">&nbsp;</div>
-										<?php the_title(); ?>
+										<strong><?php the_title(); ?></strong>
 										<div class="event_thumb_text_holder">&nbsp;</div>
 										<?php the_excerpt(); ?>
 										<?php ?>
