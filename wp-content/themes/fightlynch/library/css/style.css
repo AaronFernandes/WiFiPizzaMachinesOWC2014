@@ -1652,6 +1652,12 @@ Custom CSS for front page slider
   }
 }
 
+@media screen and (max-width: 400px) {
+	.shrinky_font {
+		font-size: 0.6em;
+	}
+}
+
 /* column container */
 .colmask {
 	position:relative;	/* This fixes the IE7 overflow hidden bug */
