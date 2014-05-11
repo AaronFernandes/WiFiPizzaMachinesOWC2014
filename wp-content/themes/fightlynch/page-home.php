@@ -87,7 +87,8 @@
 								wp_reset_postdata();
 								?>
 							<?php
-								$args = array( 'posts_per_page' => 1,'post_type' => 'post', 'category' => 'Featured', 'order'=> 'ASC', 'orderby' => 'post_date' );
+								$category_featured = get_cat_ID( 'Featured' );
+								$args = array( 'posts_per_page' => 1,'post_type' => 'post', 'category' => $category_featured, 'order'=> 'ASC', 'orderby' => 'post_date' );
 								$postslist = get_posts( $args );
 								foreach ( $postslist as $post ) :
 								 setup_postdata( $post ); ?>
