@@ -2325,7 +2325,7 @@ you can add resource intensive styles.
   /*********************
   GENERAL STYLES
   *********************/
-  /* Overriding Events Manager Pro Style
+  /* Overriding Events Manager Pro Style */
   div.css-search div.em-search-main div {
   	display:inherit;
   }
