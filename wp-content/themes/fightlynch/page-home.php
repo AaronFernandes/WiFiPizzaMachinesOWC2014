@@ -67,10 +67,10 @@
 
 						<!-- Activities/Events -->
 						<h3>CCARE Activities</h3>
-						<!-- do stuff to display 3 activities -->
+						<!-- do stuff to display 2 events and 1 blog post -->
 						<div id="events-main">
 							<?php
-								$args = array( 'posts_per_page' => 3,'post_type' => 'event', 'order'=> 'ASC', 'orderby' => 'post_date' );
+								$args = array( 'posts_per_page' => 2,'post_type' => 'event', 'order'=> 'ASC', 'orderby' => 'post_date' );
 								$postslist = get_posts( $args );
 								foreach ( $postslist as $post ) :
 								 setup_postdata( $post ); ?>
@@ -86,6 +86,23 @@
 								endforeach;
 								wp_reset_postdata();
 								?>
+							<?php
+								$args = array( 'posts_per_page' => 1,'post_type' => 'post', 'category' => 'Featured', 'order'=> 'ASC', 'orderby' => 'post_date' );
+								$postslist = get_posts( $args );
+								foreach ( $postslist as $post ) :
+								 setup_postdata( $post ); ?>
+									<div id="event-thumb">
+										<?php if ( has_post_thumbnail() ) { ?> <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( array(270,270) ); ?></a> <?php } ?>
+										<div class="event_thumb_holder">&nbsp;</div>
+										<?php the_title(); ?>
+										<div class="event_thumb_text_holder">&nbsp;</div>
+										<?php the_excerpt(); ?>
+										<?php ?>
+									</div>
+								<?php
+								endforeach;
+								wp_reset_postdata();
+							?>
 					</div>
 				</div>
 			</div>
