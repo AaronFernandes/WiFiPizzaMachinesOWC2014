@@ -405,6 +405,14 @@ textarea {
   vertical-align: top;
   /* 2 */ }
 
+/**
+ * Fix issue with text sizing/placement in dropdowns in gravity forms
+ */
+.gform_wrapper select {
+	font-size: 13px;
+	padding: 0px 0px 5px 10px;
+}
+
 /* ==========================================================================
    Tables
    ========================================================================== */
