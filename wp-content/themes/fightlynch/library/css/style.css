@@ -1653,6 +1653,14 @@ Custom CSS for front page slider
 	color: #a7a7a7;
 }
 
+.type-event h1 {
+  font-family:	'latobold';
+  color: #2980B9;
+  font-size: 20pt;
+  line-height: 1.4em;
+  margin-bottom: 0.375em;
+}
+
 /* Responsives */
 @media screen and (max-width: 1030px) {
   .ccare_ls {
