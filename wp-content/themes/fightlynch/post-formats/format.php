@@ -18,7 +18,7 @@
 
                 <header class="article-header">
 
-                  <h1 class="entry-title single-title" itemprop="headline"><?php the_title(); ?></h1>
+                  <h2 class="entry-title single-title" itemprop="headline"><?php the_title(); ?></h2>
 
                 </header> <?php // end article header ?>
 
