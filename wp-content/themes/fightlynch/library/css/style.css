@@ -87,6 +87,13 @@ html {
  */
 body {
   margin: 0; }
+  
+/**
+ * Add a 3px border around the entire site. 
+ */
+container {
+  border: 3px solid #0f85d0;
+}
 
 /* ==========================================================================
    Links
