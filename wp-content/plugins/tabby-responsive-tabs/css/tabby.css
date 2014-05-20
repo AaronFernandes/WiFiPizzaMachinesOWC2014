@@ -72,7 +72,7 @@
 	}
 }
 
-/* --- ACCORDION  --- Disabled to keep tabs on mobile **
+/* --- ACCORDION  --- Disabled to keep tabs on mobile ** */
 
 @media (max-width: 767px) {
 
@@ -141,4 +141,4 @@
 		margin: 0;
 	}
 	
-}*/
+}
